@@ -1,0 +1,37 @@
+Simple linear regression 
+Video 1(INTRODUCTION): https://www.youtube.com/watch?v=owI7zxCqNY0&t=7s
+Video 2(CONFIDENCE INTERVAL): https://www.youtube.com/watch?v=54ewnkdWU6w
+Video 3 (MODEL FIT): https://www.youtube.com/watch?v=9L7r3Uc4fGU
+Video 4(FORECASTING): https://www.youtube.com/watch?v=oJqhdOSDkhc
+
+
+Model Information:
+
+Dep. Variable: The dependent variable used in the model.
+Model: The type of regression model used, which is OLS in this case.
+Method: The method used to fit the model, which is least squares.
+Date: The date when the model was fitted.
+Time: The time when the model was fitted.
+Model Fit Statistics:
+
+R-squared: The proportion of the variance in the dependent variable that is predictable from the independent variable(s). Ranges from 0 to 1.
+Adj. R-squared: The R-squared value adjusted for the number of predictors in the model. It penalizes the addition of irrelevant predictors.
+F-statistic: A measure to test the overall significance of the model. It tests whether at least one predictor variable has a non-zero coefficient.
+Prob (F-statistic): The p-value associated with the F-statistic. A low p-value (< 0.05) indicates that the model is statistically significant.
+Coefficients Table:
+
+coef: The estimated coefficients for each predictor, including the constant term.
+std err: The standard error of the estimated coefficients.
+t: The t-statistic for each coefficient.
+P>|t|: The p-value for the t-statistic. A low p-value (< 0.05) indicates that the coefficient is significantly different from zero.
+[0.025, 0.975]: The 95% confidence interval for the coefficient estimates.
+Diagnostic Measures:
+
+Durbin-Watson: A test statistic to detect the presence of autocorrelation in the residuals.
+Omnibus: A test statistic for the joint hypothesis that the skewness and kurtosis of the residuals are zero.
+Prob(Omnibus): The p-value associated with the Omnibus test.
+Jarque-Bera (JB): A test statistic for testing whether the residuals are normally distributed.
+Prob(JB): The p-value associated with the Jarque-Bera test.
+Skew: The skewness of the residuals.
+Kurtosis: The kurtosis of the residuals.
+Cond. No: The condition number, a measure of multicollinearity. A high condition number suggests multicollinearity problems.
